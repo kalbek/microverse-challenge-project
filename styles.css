@@ -1,0 +1,22 @@
+header {
+    position: relative;
+  }
+  .flex-c, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #nav-bar {
+    position: fixed;
+  }
+  
+  body {
+    display: flex;
+  }
+  
+  
+  @media(max-width: 200px){
+    body {
+      background-color: #fff; 
+    }
+  }
